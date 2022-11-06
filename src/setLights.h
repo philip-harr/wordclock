@@ -16,7 +16,7 @@ std::vector<Adafruit_NeoPixel*> lines =
 void setField(int field, bool on)
 {
   // auto color = on ? Adafruit_NeoPixel::Color(255, 255, 255) : Adafruit_NeoPixel::Color(0, 0, 0);
-  auto color = on ? Adafruit_NeoPixel::Color(150, 150, 150) : Adafruit_NeoPixel::Color(0, 0, 0);
+  auto color = on ? Adafruit_NeoPixel::Color(120, 120, 120) : Adafruit_NeoPixel::Color(0, 0, 0);
   auto b = mappings_lights[field];
 
 

@@ -115,9 +115,9 @@ bool determineMinutes(time_t t, HardwareSerial ser)
   {
   case 0:
     if(minute(t) > 5)
-      return false;
-    else
       return true;
+    else
+      return false;
   case 5:
     setWord(Words::five_pre);
     setWord(Words::post);
